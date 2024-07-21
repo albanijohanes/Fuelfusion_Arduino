@@ -9,9 +9,9 @@
 
 #define BLYNK_PRINT Serial
 
-String URL = "http://192.168.43.109/fuelfusion/test_data.php";
-const char* ssid = "Falcon Wifi Gratis";
-const char* password = "DB4512MTsabua";
+String URL = "http://ipaddress/fuelfusion/test_data.php";
+const char* ssid = "namawifi";
+const char* password = "passwordwifi";
 double volume = 0.0;
 
 const int relayPin = D2; // Define the digital pin for the relay
